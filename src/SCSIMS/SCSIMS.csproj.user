@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\User\Desktop\Software Projects\scsims-desktop\src\SCSIMS\Properties\PublishProfiles\ClickOnceProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="FormComponents\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormComponents\Loader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormComponents\StudentData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\FormAppForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormAppForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormAppForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormListOfStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormStudentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

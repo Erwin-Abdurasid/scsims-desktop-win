@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+	<ForceDesignerDPIUnaware>true</ForceDesignerDPIUnaware>
+	<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+	<Title></Title>
+	<Authors></Authors>
+	<Product></Product>
+	<Description></Description>
+	<PackageIcon></PackageIcon>
+	<StartupObject>SCSIMS.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Forms\FormAppForm3.cs" />
+    <Compile Update="Forms\FormAppForm2.cs" />
+    <Compile Update="Forms\FormAppForm1.cs" />
+    <Compile Update="Forms\FormMain.cs" />
+    <Compile Update="Forms\FormStudentDetails.cs" />
+    <Compile Update="Forms\FormListOfStudents.cs" />
+    <!--<Compile Update="FormCollegeCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>-->
+	  <Compile Update="Forms\FormDashboard.cs" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Uploads\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="favicon.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Resources\Images\Logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
