@@ -3,8 +3,6 @@
 ![year](https://img.shields.io/badge/year-2023-blue)
 ![year](https://img.shields.io/badge/year-2024-blue)
 
----
-
 ## Software Description
 
-This is a 'Student Information Management System' for computer students. A desktop application developed using C#, .NET, Windows Form, and SQL Server for the database designed for ease to use.
+This is a Windows-based simple-to-use Student Information Management System (SIMS) designed for computer students, developed from C# Programming Language's framework named WinForms.
